@@ -8,11 +8,5 @@
     {
       "ContainerPort": "5000"
     }
-  ],
-  "Volumes": [
-    {
-      "HostDirectory": "/var/app/current/config",
-      "ContainerDirectory": "/config"
-    }
   ]
 }
