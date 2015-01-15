@@ -17,7 +17,7 @@ the registry will be running on port 80 (not 5000)
 ## Insecure/no-tls setups
 For docker 1.3+ the following config is required for insecure/http-only registry:
 
-  * boot2docker
+ * boot2docker
 
         boot2docker ssh
         sudo sh -c 'EXTRA_ARGS=" --insecure-registry <environment>.elasticbeanstalk.com:80" > /var/lib/boot2docker/profile'
