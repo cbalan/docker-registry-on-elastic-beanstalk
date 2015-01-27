@@ -20,7 +20,7 @@ For docker 1.3+ the following config is required for insecure/http-only registry
  * boot2docker
 
         boot2docker ssh
-        sudo sh -c 'EXTRA_ARGS=" --insecure-registry <environment>.elasticbeanstalk.com:80" > /var/lib/boot2docker/profile'
+        sudo sh -c 'echo EXTRA_ARGS=" --insecure-registry <environment>.elasticbeanstalk.com:80" > /var/lib/boot2docker/profile'
         sudo /etc/init.d/docker restart
 
  * ubuntu-12.04
